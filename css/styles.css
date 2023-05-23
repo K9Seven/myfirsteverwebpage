@@ -5,6 +5,11 @@ body {
     min-height: 100vh;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .container {
     max-width: 100%;
     min-height: 25%;
@@ -12,4 +17,24 @@ body {
 
 .container.one {
     background-color: #283347;
+    color: white;
+}
+
+.header {
+    padding: 0.5em 10em 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+ul.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
 }
