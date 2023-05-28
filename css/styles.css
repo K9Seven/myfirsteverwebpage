@@ -76,7 +76,7 @@ ul.nav {
     border-radius: 25px;
     background-color: #202020;
     padding: 1rem;
-    width: auto;
+    /* Veroorzaakt problemen on the button >> width: auto; */
     height: 5rem;
     font-size: 2rem;
     color: brown;
