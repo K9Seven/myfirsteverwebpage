@@ -102,7 +102,7 @@ h1.greatest {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 10em;
+    gap: 2.5em;
 }
 
 .card {
@@ -115,5 +115,5 @@ h1.greatest {
 .box {
     max-width: 200px;
     min-height: 200px;
-    border-radius: 20%;
+    border-radius: 5%;
 }
