@@ -102,13 +102,14 @@ h1.greatest {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 2.5em;
+    max-width: 100%;
+    gap: 5rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 250px;
+    max-width: 200px;
     min-height: 200px;
 }
 
@@ -116,4 +117,18 @@ h1.greatest {
     max-width: 200px;
     min-height: 200px;
     border-radius: 5%;
+}
+
+.container.three{
+    background-color: #b1bbcf;
+    padding: 3rem 5rem;
+}
+
+#blockquote {
+    margin: 0px
+}
+
+#quote{
+    color: #283347;
+    margin: 0;
 }
