@@ -121,14 +121,28 @@ h1.greatest {
 
 .container.three{
     background-color: #b1bbcf;
-    padding: 3rem 5rem;
+    padding: 2.5rem 10%;
 }
 
 #blockquote {
-    margin: 0px
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1.125em;
 }
 
-#quote{
-    color: #283347;
+#quote {
+    color: #686262;
     margin: 0;
+    font-style: oblique;
+    align-self: center;
+    font-size: 1.5em;
+}
+
+#author {
+    color: #000000;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
 }
