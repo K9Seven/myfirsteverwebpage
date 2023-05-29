@@ -121,7 +121,7 @@ h1.greatest {
 
 .container.three{
     background-color: #b1bbcf;
-    padding: 2.5rem 10%;
+    padding: 2.5rem 15%;
 }
 
 #blockquote {
@@ -145,4 +145,8 @@ h1.greatest {
     font-weight: bolder;
     display: flex;
     justify-content: flex-end;
+}
+
+section.container.four {
+    background-color: white;
 }
