@@ -148,9 +148,13 @@ h1.greatest {
 }
 
 section.container.four {
+    padding: 5% 10% 5% 10%;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+h3.action {
+    margin: 0px;
+}
