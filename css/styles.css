@@ -149,4 +149,8 @@ h1.greatest {
 
 section.container.four {
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
