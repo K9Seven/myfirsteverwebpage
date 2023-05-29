@@ -16,11 +16,6 @@ a {
     text-decoration: none;
 }
 
-.container {
-    max-width: 100%;
-    min-height: 25%;
-}
-
 .container.one {
     background-color: #283347;
     color: white;
@@ -34,15 +29,24 @@ a {
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: 900;
+}
+
+nav.navbar {
+    display: flex;
+    align-items: center;
 }
 
 ul.nav {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1.5em;
+}
+ul.nav li {
+    color: white;
+    font-size: 1em;
 }
 
 .main {
@@ -152,13 +156,22 @@ section.container.four {
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 h3.action {
     margin: 0px;
+    color: ghostwhite;
+}
+p.information {
+    margin: 0;
+    color: ghostwhite;
 }
 
 .call-to-action {
-    background-color: #68bdfc;
+    background-color: #018ffc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; /*change later */
+    height: 100px;
 }
