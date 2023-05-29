@@ -169,9 +169,28 @@ p.information {
 
 .call-to-action {
     background-color: #018ffc;
+    border-radius: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%; /*change later */
     height: 100px;
+}
+
+.information {
+    opacity: .8;
+}
+
+.container.four input.button:first-of-type {
+    width: 200px;
+    min-height: 1em;
+    border-radius: 25px;
+    border: 2px solid ghostwhite;
+    color: ghostwhite;
+    background-color: #018ffc;
+    font-size: 1em;
+}
+
+.container.four input[type="submit"] {
+    font-weight: 900;
 }
